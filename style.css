@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-image: url('./assets/images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    background-color: rgba(201, 77, 5, 0.697); /* Adding a semi-transparent background for better readability */
+    color: #fff;
+    padding: 1%;
+    object-position: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+nav a:hover {
+    text-decoration: rgb(63, 22, 0) underline 2px;
+}
+
+p {
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    font-size: large;
+    margin-bottom: 12%;
+}
+
+.post-image {
+    width: 30%;
+    height: 30%;
+    position: center;
+}
